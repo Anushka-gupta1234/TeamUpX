@@ -8,14 +8,11 @@ Welcome to TeamUpX, the ultimate platform to connect, collaborate, and create am
 👤 Create Your Profile<br>
 Show off your skills, experience, and links — let others know what makes you awesome!
 <br>
-<br>
 🔍 Find Teammates Effortlessly<br>
 Search and match with teammates based on skills, interests, and goals.<br>
 <br>
-<br>
 🔐 Secure & Simple Authentication<br>
 Sign up, log in, and manage your profile securely with JWT and sessions.<br>
-<br>
 <br>
 🗣️ Community Discussion Forum<br>
 Join conversations, share tips, and get support from fellow hackathon enthusiasts.<br>
