@@ -195,7 +195,7 @@ document.getElementById('registerForm').addEventListener('submit', async (e) => 
     const data = await res.json();
     if (res.ok) {
         alert('Registration successful');
-        window.location.href = 'login.html';
+        window.location.href = '/login/login.html';
     } else {
         alert(data.message || 'Registration failed');
     }
