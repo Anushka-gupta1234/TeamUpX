@@ -6,7 +6,7 @@ Welcome to TeamUpX, the ultimate platform to connect, collaborate, and create am
 🌟 Key Features <br>
 <br>
 👤 Create Your Profile<br>
-Show off your skills, experience, and links — let others know what makes you awesome!
+Show off your skills, experience, and links — let others know what makes you awesome!<br>
 <br>
 🔍 Find Teammates Effortlessly<br>
 Search and match with teammates based on skills, interests, and goals.<br>
