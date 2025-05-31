@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+
+<body>
+    <small></small>
+<div class="wrapper centered">
+  <article class="letter">
+    <div class="side">
+      <h1>Contact us</h1>
+      <p>
+        <textarea placeholder="Your message"></textarea>
+      </p>
+    </div>
+    <div class="side">
+      <p>
+        <input type="text" placeholder="Your name" >
+      </p>
+      <p>
+        <input type="email" placeholder="Your email" >
+      </p>
+      <p>
+        <button id="sendLetter">Send</button>
+      </p>
+    </div>
+  </article>
+  <div class="envelope front"></div>
+  <div class="envelope back"></div>
+</div>
+<p class="result-message centered">Thank you for your message</p> -->
+<!-- </body>
+<script src="feedback.js"></script>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="feedback.css"> <!-- Optional: Your CSS file -->
+</head>
+<body>
+  <div class="wrapper centered">
+    <form class="letter" id="feedbackForm">
+      <div class="side">
+        <h1>Contact Us</h1>
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Type your message..." required></textarea>
+      </div>
+      <div class="side">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+        <button type="submit" id="sendLetter">Send</button>
+      </div>
+    </form>
+    <div class="envelope front"></div>
+    <div class="envelope back"></div>
+  </div>
+
+  <p class="result-message centered" id="resultMessage" style="display: none;">Thank you for your message!</p>
+
+  <script src="feedback.js"></script>
+</body>
+</html>

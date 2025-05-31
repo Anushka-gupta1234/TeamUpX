@@ -1,0 +1,269 @@
+/* /* /* Global Styles
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #e0f7fa, #f8bbd0);
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Page Title */
+/* h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 30px 0 20px;
+  color: #6a1b9a;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+} */
+
+/* Profile Cards Container */
+/* #profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 30px 40px;
+} */
+
+/* Profile Card Style */
+/* .profile-card {
+  background: linear-gradient(to bottom, #ffffff, #f1f1f1);
+  border-left: 5px solid #ab47bc;
+  border-radius: 15px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.profile-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(171, 71, 188, 0.2);
+}
+
+.profile-card h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #4a148c;
+}
+
+.profile-card p {
+  font-size: 0.95rem;
+  margin: 6px 0;
+  color: #333;
+}
+
+.profile-card a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.profile-card a:hover {
+  text-decoration: underline;
+} */
+
+/* Modal Background */
+/* .modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.3s ease-in-out;
+} */
+
+/* Modal Content */
+/* .modal-content {
+  background-color: #fff;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 650px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  position: relative;
+  animation: popUp 0.3s ease-in-out;
+}
+
+@keyframes popUp {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Modal Close Button */
+/* .close {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  color: #999;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.close:hover {
+  color: #d32f2f;
+} */
+
+/* Modal Body */
+/* #modalBody h2 {
+  color: #6a1b9a;
+  margin-top: 0;
+}
+
+#modalBody p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 10px 0;
+  color: #333;
+} */
+
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #e9f1fb, #f3f7fb);
+  color: #1a1a1a;
+  padding: 2rem;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #0d47a1;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+/* Profile Card Grid */
+#profiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+/* Individual Profile Card */
+.profile-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 8px 20px rgba(13, 71, 161, 0.15);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #e3eaf7;
+}
+
+.profile-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 25px rgba(13, 71, 161, 0.25);
+}
+
+.profile-card h3 {
+  color: #0d47a1;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: #ffffff;
+  margin: 5% auto;
+  padding: 2rem;
+  border-radius: 18px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.close {
+  color: #555;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.close:hover {
+  color: #e53935;
+}
+
+/* Modal Text */
+#modalBody p {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  color: #444;
+}
+
+#modalBody a {
+  color: #1565c0;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #profiles {
+    justify-content: center;
+  }
+
+  .profile-card {
+    width: 90%;
+  }
+
+  .modal-content {
+    width: 95%;
+    margin-top: 20%;
+  }
+}
+
